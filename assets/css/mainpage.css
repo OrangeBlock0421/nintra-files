@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'ShareTechMono';
-	src: url('assets/font/ShareTechMono.ttf');
+	src: url('../font/ShareTechMono.ttf');
 }
 
 :root {
@@ -26,6 +26,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 
 body {
 	background-color: light-dark(#d4d4d4, #333333);
+	font-family: 'ShareTechMono';
 }
 
 a:link {
