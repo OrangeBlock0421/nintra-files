@@ -24,6 +24,14 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 	font-color: light-dark(black, white);
 }
 
+.serveranimerrortext {
+	font-size: 20px;
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	font-color: light-dark(black, white);
+}
+
 body {
 	background-color: light-dark(#d4d4d4, #333333);
 	font-family: 'ShareTechMono';
@@ -48,17 +56,17 @@ a:active {
 .progressbar {
 	display: block;
 	height: 20px;
-	background-color: white;
+	background-color: light-dark(black, white);
 	margin-left: -8px;
 	margin-right: -8px;
-	margin-top: 406px;
+	margin-top: 430px;
 }
 .progressfill {
 	display: block;
 	height: 20px;
-	background-color: cyan;
+	background-color: light-dark(lime, cyan);
 	margin-left: -8px;
 	margin-right: -8px;
-	margin-top: 406px;
+	margin-top: 430px;
 	border-radius: 25px;
 }
