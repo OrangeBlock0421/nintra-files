@@ -8,7 +8,7 @@ const serverNum = Math.floor(Math.random() * 30) + 1;
 
 function animSwap() {
 	if (connecting == 1) { 
-		document.getElementById("connanim").src = "https://raw.githubusercontent.com/OrangeBlock0421/nintra-files/main/assets/animations/nintra_connectfailed.gif"; document.getElementById("conntext").innerHTML = "<span>Could not find an available server.<br>Please try again later.</span>"; connecting -= 1; connectfailed += 1
+		document.getElementById("connanim").src = "assets/animations/nintra_connectfailed.gif"; document.getElementById("conntext").innerHTML = "<span>Could not find an available server.<br>Please try again later.</span>"; connecting -= 1; connectfailed += 1
 	}
 }
 
