@@ -38,19 +38,19 @@ body {
 }
 
 a:link {
-	color: light-dark(blue, cyan);
+	color: light-dark(rgb(132, 0, 255), rgb(207, 87, 255));
 }
 
 a:visited {
-	color: light-dark(blue, #00b3b3);
+	color: light-dark(rgb(104, 0, 202), rgb(183, 0, 255));
 }
 
 a:hover {
-	color: light-dark(blue, #4dffff);
+	color: light-dark(rgb(158, 55, 255), rgb(215, 113, 255));
 }
 
 a:active {
-	color: light-dark(blue, #99ffff);
+	color: light-dark(rgb(158, 55, 255), rgb(215, 113, 255));
 }
 
 .progressbar {
@@ -64,7 +64,7 @@ a:active {
 .progressfill {
 	display: block;
 	height: 20px;
-	background-color: light-dark(lime, cyan);
+	background-color: light-dark(rgb(132, 0, 255), rgb(207, 87, 255));
 	margin-left: -8px;
 	margin-right: -8px;
 	margin-top: 430px;
